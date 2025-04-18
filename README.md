@@ -24,7 +24,7 @@ To get you started, we ran an Actions workflow in your new repository that, amon
 
 ### :keyboard: Activity: Create a workflow file
 
-1. Open a new browser tab, and navigate to this same repository. Then, work on the steps in your second tab while you read the instructions in this tab.
+1. Open a new browser tab, and navigate to your forked repository. Then, work on the steps in your second tab while you read the instructions in this tab.
 1. Create a pull request. This will contain all of the changes you'll make throughout this part of the course.
 
    Click the **Pull Requests** tab, click **New pull request**, set `base: main` and `compare:welcome-workflow`, click **Create pull request**, then click **Create pull request** again.
