@@ -1,4 +1,7 @@
 {
+  "name": "rainbowbeasts-sidekick-copilot-marketplace",
+  "version": "1.0.0",
+  "main": "index.js",
   "dependencies": {
     "@tanstack/react-query": "^5.80.7"
   }
