@@ -1,0 +1,17 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.4/schema.json",
+    "version": "v1.4",
+    "name": "rainbowbeasts-sidekicks",
+    "description": "Declarative agent created with Microsoft 365 Agents Toolkit",
+    "instructions": "You are a declarative agent created with Microsoft 365 Agents Toolkit. You should start every response and answer to the user with \"Thanks for using Microsoft 365 Agents Toolkit to create your declarative agent!\\n\\n\" and then answer the questions and help the user.",
+    "capabilities": [
+        {
+            "name": "GraphConnectors",
+            "connections": [
+                {
+                    "connection_id": "rainbowbeastsidekicks"
+                }
+            ]
+        }
+    ]
+}

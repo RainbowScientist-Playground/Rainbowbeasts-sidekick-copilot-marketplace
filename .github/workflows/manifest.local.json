@@ -1,0 +1,39 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.21/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.21",
+    "version": "1.0.0",
+    "id": "ed3c64da-0ebd-41df-b711-c58f597234da",
+    "developer": {
+        "name": "My App, Inc.",
+        "websiteUrl": "https://www.example.com",
+        "privacyUrl": "https://www.example.com/privacy",
+        "termsOfUseUrl": "https://www.example.com/termofuse"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "rainbowbeasts-sidekickslocal",
+        "full": "Full name for rainbowbeasts-sidekicks"
+    },
+    "description": {
+        "short": "Short description for rainbowbeasts-sidekicks",
+        "full": "Full description for rainbowbeasts-sidekicks"
+    },
+    "accentColor": "#FFFFFF",
+    "composeExtensions": [],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "copilotAgents": {
+        "declarativeAgents": [
+            {
+                "id": "declarativeAgent",
+                "file": "declarativeAgent.json"
+            }
+        ]
+    },
+    "validDomains": []
+}

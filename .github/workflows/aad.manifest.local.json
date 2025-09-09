@@ -1,0 +1,30 @@
+{
+    "id": "e6f10212-b705-46aa-92c1-39b5bc26622f",
+    "appId": "342b6287-e03a-49b7-82a2-7c16a839e143",
+    "displayName": "rainbowbeasts-sidekicks-local",
+    "signInAudience": "AzureADMyOrg",
+    "api": {
+        "requestedAccessTokenVersion": 2
+    },
+    "info": {},
+    "publicClient": {},
+    "requiredResourceAccess": [
+        {
+            "resourceAppId": "00000003-0000-0000-c000-000000000000",
+            "resourceAccess": [
+                {
+                    "id": "f431331c-49a6-499f-be1c-62af19c34a9d",
+                    "type": "Role"
+                },
+                {
+                    "id": "8116ae0f-55c2-452d-9944-d18420f5b2c8",
+                    "type": "Role"
+                }
+            ]
+        }
+    ],
+    "web": {
+        "implicitGrantSettings": {}
+    },
+    "spa": {}
+}
